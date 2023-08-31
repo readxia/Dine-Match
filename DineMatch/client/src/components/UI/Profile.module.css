@@ -1,0 +1,49 @@
+.profileError{
+    font-size: 50px;
+    color:red;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.profileh2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    color: white
+}
+
+.profileField{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin: 5px
+}
+.profileField span{
+    color:rgb(241, 118, 10);
+    font-size: 30px;
+    margin-left: 10px;
+    
+}
+
+.profileField input{
+    width: 253px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 30px;
+    color:rgb(241, 118, 10);
+    margin-left: 10px;
+}
+
+.profileField select{
+    width: 253px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 30px;
+    color:rgb(241, 118, 10);
+}
+
+.profileField Button{
+    float: right;
+}
+

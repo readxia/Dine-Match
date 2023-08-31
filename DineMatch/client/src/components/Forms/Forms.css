@@ -1,0 +1,126 @@
+.formHeader {
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    color: #040553;
+}
+
+.formHeader h1 {
+    margin-bottom: 0;
+    margin-top: 0; 
+    font-size: 2.5em;
+}
+
+.formHeader h4 {
+    margin-top: 0px; 
+}
+
+/* .formBG {
+    width: 40%;
+    padding: 20px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.817);
+} */
+.tasteProfileButton{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #040553;
+}
+
+.formInput {
+    display: flex;
+    width: 300px;
+    padding: 10px;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}  
+
+.form ::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.errorForm {
+    color: #FF6616;
+    font-size: 0.9em;
+    margin-top: 5px; 
+    display: block;
+}
+
+
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    right: 1px;
+    top: 60%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.optionButton {
+    border-radius: 5px;
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    transition: all 0.3s ease; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.134);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+}
+
+.optionButton:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.134);
+    transform: scale(1.2);
+    
+}
+
+.optionButton:active {
+    box-shadow: none;
+    transform: scale(0.9);
+}
+
+.optionButton:not(.selected) {
+    background-color: #040553;
+    color: #ffffff;
+}
+
+.optionButton.selected {
+    background-color: #ae5feb;
+    color: #ffffff;
+}
+
+.optionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
